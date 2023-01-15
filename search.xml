@@ -30,6 +30,8 @@
 <li><p>而对于自己的数据训练请自行阅读作者的README.md文件。</p>
 </li>
 </ol>
+<p>我自己是使用预训练权重后直接运行train.py，最后得到：</p>
+<p><img title="" src="../images/train1.png" alt="trained" width="277"><img src="../images/train2.png" alt="trained"></p>
 ]]></content>
   </entry>
 </search>
