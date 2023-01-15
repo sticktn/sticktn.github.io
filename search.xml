@@ -13,8 +13,8 @@
 </li>
 <li><p>先试试能否正常训练数据集，首先下载VOC数据集：</p>
 <figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">wget http://host.robots.ox.ac.uk/pascal/VOC/voc2012/VOCtrainval_11-May-2012.tar </span><br><span class="line">wget http://host.robots.ox.ac.uk/pascal/VOC/voc2007/VOCtrainval_06-Nov-2007.tar </span><br><span class="line">wget http://host.robots.ox.ac.uk/pascal/VOC/voc2007/VOCtest_06-Nov-2007.tar</span><br></pre></td></tr></tbody></table></figure>
-<pre><code> 数据集如下： [VOC 2012_trainval](http://host.robots.ox.ac.uk/pascal/VOC/voc2012/VOCtrainval_11-May-2012.tar) 、[VOC 2007_trainval](http://host.robots.ox.ac.uk/pascal/VOC/voc2007/VOCtrainval_06-Nov-2007.tar)、[VOC2007_test](http://host.robots.ox.ac.uk/pascal/VOC/voc2007/VOCtest_06-Nov-2007.tar)
-</code></pre></li>
+<p>数据集如下： <a href="http://host.robots.ox.ac.uk/pascal/VOC/voc2012/VOCtrainval_11-May-2012.tar">VOC 2012_trainval</a> 、<a href="http://host.robots.ox.ac.uk/pascal/VOC/voc2007/VOCtrainval_06-Nov-2007.tar">VOC 2007_trainval</a>、<a href="http://host.robots.ox.ac.uk/pascal/VOC/voc2007/VOCtest_06-Nov-2007.tar">VOC2007_test</a></p>
+</li>
 <li><p>分别解压后以<strong>VOC2007_trainval</strong>为例，修改voc_annotation.py里面的annotation_mode=2。</p>
 </li>
 <li><p>修改voc_annotation.py里的VOCdevkit_path为VOC2007_trainval数据集的路径并加上/VOCdevkit。</p>
